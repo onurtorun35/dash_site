@@ -17,7 +17,7 @@ def hisseSec():
 hisse = hisseSec()
 
 
-hisse_finansal = pd.read_excel(f"/home/user/deneme/database/{hisse}_bilanco.xlsx" , index_col=0)
+hisse_finansal = pd.read_excel(f"database/{hisse}_bilanco.xlsx" , index_col=0)
 
 
 FinansalVeriler = hisseGetir.finansalVeriBasliklari(hisse_finansal)
