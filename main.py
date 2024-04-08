@@ -139,7 +139,7 @@ app.layout = html.Div(style={'backgroundColor': '#17202A', 'height': '100vh'}, c
     html.Div([    
         html.H1('Oranlar', style={'textAlign': 'center',"color":"#979A9A"}),
         dcc.Graph(id='table1', figure=fig_table,style={'width': '50%', 'height': '50vh','display': 'inline-block'}),
-        dcc.Graph(id='plot18', figure=pieChart1.pieChart(),style={'width': '50%', 'height': '50vh', 'display': 'inline-block'})
+        dcc.Graph(id='table2', figure=pieChart1.pieChart(),style={'width': '50%', 'height': '50vh', 'display': 'inline-block'})
         ],style = {'backgroundColor': '#17202A'}),  
 
 
