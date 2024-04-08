@@ -5,3 +5,4 @@ matplotlib
 numpy
 seaborn
 openpyxl
+Flask==2.2.0
