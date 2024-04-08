@@ -178,10 +178,7 @@ app.layout = html.Div(style={'backgroundColor': '#17202A', 'height': '100vh'}, c
         ],style = {'backgroundColor': '#17202A'}),        
 ]
 )
-html_content = app.index_string
 
-with open("dashboard.html", "w") as file:
-    file.write(html_content)
 
 
 if __name__ == '__main__':
