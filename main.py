@@ -28,6 +28,7 @@ FinansalVeriler = hisseGetir.finansalVeriBasliklari(hisse_finansal)
 
 
 app = dash.Dash(__name__)
+server = app.server
 #KARLILIK
 aktifKarlilik         = FinansalVeriler.aktifKarlilik()
 grafik1               = Grafikler(aktifKarlilik,hisse)
