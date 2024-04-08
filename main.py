@@ -184,8 +184,8 @@ with open("dashboard.html", "w") as file:
     file.write(html_content)
 
 
-#if __name__ == '__main__':
- #   app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(debug=True)
 
 
 
