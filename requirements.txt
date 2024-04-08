@@ -4,3 +4,4 @@ gunicorn
 matplotlib
 numpy
 seaborn
+openpyxl
