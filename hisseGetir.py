@@ -289,7 +289,7 @@ class finansalVeriBasliklari:  #onemli finansal verileri tutacagimiz sinif
 
 
     def kapanisFiyati(self):
-        fiyatDf      = pd.read_excel("/home/user/deneme/database/THYAO_fiyat.xlsx")
+        fiyatDf      = pd.read_excel("database/THYAO_fiyat.xlsx")
         fiyatGecmisi = fiyatDf["CLOSING_TL"]
         sonFiyat     = fiyatGecmisi.iloc[-1]
         return sonFiyat
