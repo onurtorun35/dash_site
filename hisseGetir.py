@@ -213,7 +213,7 @@ class finansalVeriBasliklari:  #onemli finansal verileri tutacagimiz sinif
         finansalYatirimlar = self.finansalYatirimlar.values[0,-1] + self.finansalYatirimlar.values[1,-1]
         netBorc            = self.uzunVadeliYukumlulukler[-1] + self.kisaVadeliYukumlulukler[-1] - self.nakitveBenzerleri[-1] - finansalYatirimlar
         lotSayisi          = self.LotSayisi[-1]
-        dolasimOrani       = float(input("Hissenin Dolasim Orani(%) : "))
+        dolasimOrani       = 50.5 #float(input("Hissenin Dolasim Orani(%) : "))
         piyasaDegeri       = self.kapanisFiyati()*lotSayisi*dolasimOrani/100
         firmaDegeri        = piyasaDegeri + netBorc
         return firmaDegeri
